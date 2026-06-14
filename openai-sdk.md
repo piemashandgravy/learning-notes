@@ -122,4 +122,7 @@ client = AzureOpenAI(
 
 ---
 
+
+---
+
 [Back to index](index.md)

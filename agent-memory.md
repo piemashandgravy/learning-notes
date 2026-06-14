@@ -209,4 +209,13 @@ if len(messages) > 20:
 
 ---
 
+## From your code
+
+
+**Tip — Memory Persistence with Sessions**
+
+Sessions automatically retain conversation history across turns using `Session` objects. For persistence across session restarts, integrate with Redis by specifying a `session_id`, allowing memory to persist beyond the runtime of the application.
+
+---
+
 [Back to index](index.md)

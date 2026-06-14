@@ -23,6 +23,7 @@ PAGE_MAP = {
     "crewai":               NOTES_DIR / "crewai.md",
     "langgraph":            NOTES_DIR / "langgraph.md",
     "openai_sdk":           NOTES_DIR / "openai-sdk.md",
+    "openai_agents_sdk":    NOTES_DIR / "openai-agents-sdk.md",
     "mcp":                  NOTES_DIR / "mcp.md",
     "rag":                  NOTES_DIR / "rag-vector-databases.md",
     "prompt_engineering":   NOTES_DIR / "prompt-engineering.md",
@@ -35,6 +36,10 @@ SYSTEM_PROMPT = f"""You analyse Python code and extract learning insights worth 
 
 Assign each insight to one of these topics:
 {json.dumps(list(PAGE_MAP.keys()), indent=2)}
+
+Note: "openai_sdk" is the base openai Python package (client.chat.completions.create etc).
+"openai_agents_sdk" is the separate openai-agents package (Agent, Runner, handoffs, @function_tool etc).
+Use the correct one — they are different libraries.
 
 Extract only things that are genuinely non-obvious — patterns worth reusing,
 gotchas that could waste someone's time, or decisions that aren't self-evident from the code.
