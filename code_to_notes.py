@@ -40,6 +40,11 @@ Extract only things that are genuinely non-obvious — patterns worth reusing,
 gotchas that could waste someone's time, or decisions that aren't self-evident from the code.
 Skip anything already obvious from the variable names or standard library docs.
 
+The 'type' field must be exactly one of: "gotcha", "pattern", or "tip".
+- gotcha: something that could catch someone out or waste time
+- pattern: a reusable code pattern worth copying
+- tip: a non-obvious technique or decision
+
 Format 'content' as markdown. Use a code block if the insight includes a snippet.
 Keep each insight to 1-4 sentences."""
 
@@ -48,7 +53,7 @@ Keep each insight to 1-4 sentences."""
 
 class Insight(BaseModel):
     topic: str    # must be a key in PAGE_MAP
-    type: str     # "gotcha" | "pattern" | "tip"
+    type: str     # must be exactly one of: "gotcha", "pattern", "tip"
     heading: str  # short title, e.g. "Always set max_iter on extraction agents"
     content: str  # the note body in markdown
 
@@ -80,7 +85,7 @@ BACK_LINK = "\n---\n\n[Back to index](index.md)"
 def append_insight(page: Path, insight: Insight):
     text = page.read_text()
 
-    entry = f"**{insight.type.title()} — {insight.heading}**\n\n{insight.content}\n"
+    entry = f"\n**{insight.type.title()} — {insight.heading}**\n\n{insight.content}\n"
 
     if SECTION_HEADER not in text:
         # First code-derived note on this page — create the section

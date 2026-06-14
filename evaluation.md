@@ -177,4 +177,12 @@ Essential once your pipeline has more than 2-3 steps.
 
 ---
 
+## From your code
+
+**Insight — Post-Processing LLM Output**
+
+The `parse_result` function deals with potential markdown style formatting in LLM outputs, stripping it out before processing. This demonstrates a common practical necessity for handling formatted text returned from LLMs before parsing them as JSON.
+
+---
+
 [Back to index](index.md)
