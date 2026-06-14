@@ -301,20 +301,4 @@ result = await Runner.run(
 
 ---
 
-## From your code
-
-**Pattern — Using `@function_tool` with Docstrings**
-
-The `@function_tool` decorator automatically uses type hints and docstrings to define the API for agent-accessible functions. Ensure your docstrings clearly describe parameters and return types, as vague descriptions can lead to incorrect tool usage by the model.
-
-**Gotcha — Asynchronous Operations**
-
-While `Runner.run_sync()` is convenient for scripts, use `await Runner.run()` in production — it handles concurrency properly and is the expected pattern in any async context.
-
-**Pattern — Handoffs vs. Agents as Tools**
-
-Handoffs transfer control entirely to a specialist — the manager steps back. `agent.as_tool()` keeps the manager in control and synthesises results. Choose based on whether the specialist should own the response or just assist with a bounded subtask.
-
----
-
 [Back to index](index.md)
