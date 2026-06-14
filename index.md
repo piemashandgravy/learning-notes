@@ -31,6 +31,7 @@ A reasonable learning path: **OpenAI SDK → CrewAI → LangGraph → MCP**
 - [MCP — Model Context Protocol](mcp.md)
 - [DeepLearning.AI — Agentic AI Courses](deeplearning-ai.md)
 - [Supporting Libraries — asyncio, Pydantic, Serper, HuggingFace](supporting-libraries.md)
+- [Vector Databases & RAG](rag-vector-databases.md)
 
 ---
 
