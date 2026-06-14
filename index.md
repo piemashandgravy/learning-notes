@@ -23,15 +23,25 @@ A reasonable learning path: **OpenAI SDK → CrewAI → LangGraph → MCP**
 
 ---
 
-## Topics
+## Frameworks
 
 - [OpenAI SDK](openai-sdk.md)
 - [CrewAI](crewai.md)
 - [LangGraph](langgraph.md)
 - [MCP — Model Context Protocol](mcp.md)
-- [DeepLearning.AI — Agentic AI Courses](deeplearning-ai.md)
-- [Supporting Libraries — asyncio, Pydantic, Serper, HuggingFace](supporting-libraries.md)
+
+## Core concepts
+
+- [Prompt Engineering](prompt-engineering.md)
+- [Agent Memory](agent-memory.md)
+- [Evaluation & Testing](evaluation.md)
 - [Vector Databases & RAG](rag-vector-databases.md)
+- [Supporting Libraries — asyncio, Pydantic, Serper, HuggingFace](supporting-libraries.md)
+
+## Learning resources
+
+- [DeepLearning.AI — Agentic AI Courses](deeplearning-ai.md)
+- [Ed Donner — Courses & Reading](ed-donner.md)
 
 ---
 
