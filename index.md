@@ -40,6 +40,7 @@ A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → La
 - [Debugging & Observability](debugging-observability.md)
 - [Cost & Model Selection](cost-and-model-selection.md)
 - [Tool Design & Structured Outputs](tool-design-structured-outputs.md)
+- [Psychological Applications of AI Tools](psychological-applications.md)
 - [Prompt Engineering](prompt-engineering.md)
 - [Agent Memory](agent-memory.md)
 - [Evaluation & Testing](evaluation.md)
