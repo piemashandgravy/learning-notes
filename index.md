@@ -33,4 +33,25 @@ A reasonable learning path: **OpenAI SDK → CrewAI → LangGraph → MCP**
 
 ---
 
+## How to add notes
+
+**From your dev machine**
+Edit any `.md` file in the repo, then `git add . && git commit -m "..." && git push`. Pages rebuilds in ~30 seconds.
+
+**From any browser (Chromebook, phone, work)**
+Open the repo on GitHub, click a file, hit the pencil icon to edit in place.
+Or press `.` on the repo homepage to open a full VS Code editor in the browser.
+
+**What's worth adding**
+- Things that surprised you or only clicked after confusion
+- Code patterns you'll want to copy-paste later
+- Gotchas — the things that wasted time
+- Links to a specific doc page that was particularly clear, plus 3–5 bullets on what you took from it
+
+**On external documentation**
+Link to it — don't copy it. External docs (e.g. [LangGraph](https://github.com/langchain-ai/langgraph)) update constantly and a pulled copy goes stale.
+The valuable thing to write here is your own understanding: what the docs didn't make obvious, what pattern finally made it click.
+
+---
+
 *Last updated: June 2026*
