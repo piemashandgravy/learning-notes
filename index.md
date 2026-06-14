@@ -19,6 +19,7 @@ These four tools sit at different levels of the stack:
 | **MCP** | Standard for connecting AI to tools/data | Exposing your own tools to any LLM |
 | **CrewAI** | High-level multi-agent framework | Quick multi-agent pipelines; role-based teams |
 | **LangGraph** | Low-level graph-based agent orchestration | Complex stateful workflows; loops; full control |
+| **AutoGen** | Conversation-based multi-agent framework | Code generation + execution loops; iterative tasks |
 
 A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → LangGraph → MCP**
 
@@ -30,10 +31,12 @@ A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → La
 - [OpenAI Agents SDK](openai-agents-sdk.md)
 - [CrewAI](crewai.md)
 - [LangGraph](langgraph.md)
+- [AutoGen](autogen.md)
 - [MCP — Model Context Protocol](mcp.md)
 
 ## Core concepts
 
+- [Agent Design Patterns](agent-design-patterns.md)
 - [Prompt Engineering](prompt-engineering.md)
 - [Agent Memory](agent-memory.md)
 - [Evaluation & Testing](evaluation.md)
