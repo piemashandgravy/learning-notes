@@ -209,6 +209,72 @@ embeddings = model.encode(["document one", "document two", "document three"])
 
 ---
 
+## Gradio
+
+Fast way to put a UI on an agent or model — a Python library that generates a web interface
+from your functions. No HTML or JavaScript needed.
+
+**Why it matters for agents**
+Most agent demos and course labs use Gradio. It lets you add a chat interface to any LangGraph
+or CrewAI project in ~10 lines, and it deploys instantly to Hugging Face Spaces for free.
+
+```python
+import gradio as gr
+from agents import Agent, Runner
+
+agent = Agent(name="Assistant", instructions="You are a helpful assistant.", model="gpt-4o-mini")
+
+def chat(message: str, history: list) -> str:
+    result = Runner.run_sync(agent, message)
+    return result.final_output
+
+demo = gr.ChatInterface(fn=chat, title="My Agent")
+demo.launch()
+```
+
+**Streaming output from a long-running agent**
+
+```python
+import queue, threading
+
+output_queue = queue.Queue()
+
+def run_crew_in_background(inputs):
+    # CrewAI or LangGraph kicks off here; agents push updates to the queue
+    crew.kickoff(inputs=inputs)
+    output_queue.put(None)  # sentinel to signal done
+
+def chat(message: str):
+    thread = threading.Thread(target=run_crew_in_background, args=({"input": message},))
+    thread.start()
+    while True:
+        chunk = output_queue.get()
+        if chunk is None:
+            break
+        yield chunk  # Gradio streams each yield to the browser
+
+demo = gr.Interface(fn=chat, inputs="text", outputs="text")
+demo.launch()
+```
+
+This queue pattern is the standard way to stream CrewAI output live — avoids the long silence
+before results appear. See `engineering_team_with_feedback_loops` in the
+[community contributions](community-contributions.md) for a worked example.
+
+**Key things to know**
+- `gr.ChatInterface` — drop-in chat UI; handles history automatically
+- `gr.Interface` — general input → output UI; supports streaming with `yield`
+- `demo.launch(share=True)` — creates a temporary public URL; useful for demos
+- `demo.launch()` in a Jupyter notebook shows the UI inline
+- Deploys to [Hugging Face Spaces](https://huggingface.co/spaces) with one file + `requirements.txt`
+- The Ed Donner course labs use Gradio throughout — it's the default UI layer
+
+**Resources**
+- [Gradio docs](https://www.gradio.app/docs)
+- [HuggingFace Spaces quickstart](https://huggingface.co/docs/hub/spaces-sdks-gradio)
+
+---
+
 ## How they fit together
 
 ```
@@ -216,11 +282,12 @@ asyncio          → run multiple agent/LLM calls in parallel
 Pydantic         → validate and type agent inputs and outputs
 Serper           → give agents a web search tool
 HuggingFace      → swap in open-source models; add embedding/RAG capability
+Gradio           → add a chat UI in ~10 lines; deploy to HF Spaces for free
 ```
 
-A typical production pipeline uses all four: Pydantic to define task schemas,
-asyncio to run agents concurrently, Serper so agents can look things up,
-and HuggingFace embedding models to retrieve relevant context before each LLM call.
+A typical course project combines all five: Pydantic defines task schemas, asyncio runs agents
+concurrently, Serper gives web search, HuggingFace supplies local models or embeddings,
+and Gradio puts a UI on the result.
 
 ---
 

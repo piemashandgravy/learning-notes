@@ -38,12 +38,13 @@ A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → La
 - [Agent Memory](agent-memory.md)
 - [Evaluation & Testing](evaluation.md)
 - [Vector Databases & RAG](rag-vector-databases.md)
-- [Supporting Libraries — asyncio, Pydantic, Serper, HuggingFace](supporting-libraries.md)
+- [Supporting Libraries — asyncio, Pydantic, Serper, HuggingFace, Gradio](supporting-libraries.md)
 
 ## Learning resources
 
 - [DeepLearning.AI — Agentic AI Courses](deeplearning-ai.md)
 - [Ed Donner — Courses & Reading](ed-donner.md)
+- [Ed Donner — Community Contributions](community-contributions.md)
 
 ---
 
