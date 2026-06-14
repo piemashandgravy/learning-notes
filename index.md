@@ -37,6 +37,7 @@ A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → La
 ## Core concepts
 
 - [Agent Design Patterns](agent-design-patterns.md)
+- [Debugging & Observability](debugging-observability.md)
 - [Prompt Engineering](prompt-engineering.md)
 - [Agent Memory](agent-memory.md)
 - [Evaluation & Testing](evaluation.md)
