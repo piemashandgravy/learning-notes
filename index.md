@@ -15,17 +15,19 @@ These four tools sit at different levels of the stack:
 | Tool | What it is | When to reach for it |
 |---|---|---|
 | **OpenAI SDK** | Direct API access | Simplest tasks; full control; no overhead |
+| **OpenAI Agents SDK** | OpenAI's official agent framework | Multi-agent on OpenAI models; handoffs; built-in tracing |
 | **MCP** | Standard for connecting AI to tools/data | Exposing your own tools to any LLM |
 | **CrewAI** | High-level multi-agent framework | Quick multi-agent pipelines; role-based teams |
 | **LangGraph** | Low-level graph-based agent orchestration | Complex stateful workflows; loops; full control |
 
-A reasonable learning path: **OpenAI SDK → CrewAI → LangGraph → MCP**
+A reasonable learning path: **OpenAI SDK → OpenAI Agents SDK → CrewAI → LangGraph → MCP**
 
 ---
 
 ## Frameworks
 
 - [OpenAI SDK](openai-sdk.md)
+- [OpenAI Agents SDK](openai-agents-sdk.md)
 - [CrewAI](crewai.md)
 - [LangGraph](langgraph.md)
 - [MCP — Model Context Protocol](mcp.md)
