@@ -146,6 +146,32 @@ Recognising this removes an entire category of anxiety. The question isn't open;
 
 ---
 
+## Money dysmorphia and the scarcity mindset
+
+Some people with objectively strong financial positions experience persistent anxiety about money that doesn't match their actual situation. The feeling of scarcity remains even when scarcity has long since been replaced by genuine security. This is sometimes called money dysmorphia — a disconnect between financial reality and financial self-perception.
+
+It's more common than people admit, particularly among people who built their position through effort rather than inheritance. The scarcity mindset often formed when it was accurate: early career uncertainty, a period where watching the number closely genuinely mattered, an environment where money was a source of stress. The psychological pattern that developed in that environment is adaptive then. The problem is that it doesn't automatically update when the situation changes. The feeling lags the reality by years, sometimes decades.
+
+The result is a set of behaviours that look like prudence but are driven by anxiety: leaving money in low-return accounts because moving it feels risky, preferring the certainty of 0% real return over the discomfort of volatility, mistaking tax on gains for punishment rather than evidence of profit. These aren't irrational in themselves — they become irrational when the underlying fear is no longer warranted.
+
+### What the tool can do about it
+
+A well-built personal finance tool is partly a treatment for money dysmorphia, because it provides a consistent, primary-source answer to the question the scarcity mindset keeps asking: *is there enough?*
+
+The feeling says: not enough. The tool says: 2.33× your spending target, and it never depletes in any stress scenario over 40 years.
+
+You can't argue with the feeling directly. But you can have the evidence ready, and run the check regularly enough that the evidence becomes the background rather than the anxiety.
+
+The weekly cadence matters here specifically. A check-in that happens once a week means the scarcity feeling has at most seven days to compound before it gets corrected. That's a much smaller window than it had before the tool existed.
+
+### The comparison problem
+
+People with scarcity mindsets often find it puzzling that others in similar circumstances don't share it. Same family background, similar starting point, different relationship with money. Birth order plays a part — older siblings frequently absorb more of a household's early financial stress and carry it longer. Temperament plays a part too. The point isn't to explain the difference but to recognise that the scarcity mindset is a learned response to a particular history, not an accurate read of the current situation.
+
+Naming it is the first step to not letting it drive decisions.
+
+---
+
 ## Relation to other patterns
 
 The agent patterns most relevant here are less about multi-step reasoning and more about reliable, low-cost, regular execution:
