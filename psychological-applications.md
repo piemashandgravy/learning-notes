@@ -172,6 +172,24 @@ Naming it is the first step to not letting it drive decisions.
 
 ---
 
+## Financial media and the false peer group
+
+Financial commentary — newspaper money pages, Reddit threads, comment sections — creates a distorted picture of what "normal" financial situations look like. The people most likely to comment on personal finance articles are:
+
+- People with strong ideological views about money (index funds only; property always; never spend; always spend)
+- People who are anxious about their situation and seeking validation
+- People who are proud of their situation and seeking recognition
+
+None of these are a useful reference group for someone making a specific, complex, individual financial decision. Their situations are rarely comparable. Their certainty is usually inversely proportional to the nuance of their position.
+
+The specific harm is that financial media commentary can make someone with an objectively unusual and strong position feel like they're doing it wrong — because the median commenter is working with different constraints, different goals, and a different time horizon. Reading enough of it creates a noise floor of received wisdom that drowns out primary-source analysis of your own situation.
+
+The corrective is the same as for money dysmorphia: return to primary sources. Your bank statements, your pension projections, your actual spending data, your specific exit timeline. These are more informative than the aggregate opinion of strangers whose financial situations are nothing like yours.
+
+A well-built personal finance tool doesn't just answer the numbers question. It insulates the user from the noise by providing a grounded, specific, primary-source alternative to the generic advice that financial media produces.
+
+---
+
 ## Relation to other patterns
 
 The agent patterns most relevant here are less about multi-step reasoning and more about reliable, low-cost, regular execution:
