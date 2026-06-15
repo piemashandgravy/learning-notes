@@ -100,6 +100,52 @@ That's enough. The question is answered. The week can begin.
 
 ---
 
+## Behavioural biases in investment decisions
+
+A personal finance tool creates an unusual opportunity: it can reflect the user's own reasoning back to them in a way that makes biases visible in real time. This is different from reading about behavioural finance in the abstract — it's catching yourself mid-thought.
+
+### The biases that show up most often
+
+**Loss aversion.** The pain of seeing a large red number in an investment app is felt more acutely than the pleasure of the equivalent gain. This asymmetry causes people to avoid putting money into volatile assets even when the expected return is clearly positive. The correct reframe: the red number is temporary; the alternative (0% real return) is permanent.
+
+**Tax preference illusion.** A preference for tax-free gains over taxable gains can become irrational when it causes inaction. The correct frame: *"I'd rather keep 72% of something than 100% of nothing."* Tax is a cost applied to profit, not a punishment for investing. The tax return shows what you owe, not what you made.
+
+**Liquidity anxiety.** Worrying about needing money at short notice when the portfolio already provides multiple layers of liquidity. This feels prudent but is often a rationalisation. The tell: the scenario in which you'd need the money is the same scenario the rest of the portfolio already handles.
+
+**Analysis paralysis as due diligence.** Over-analysis of a secondary question (which fund?) blocking action on the primary question (should I invest?). These are separate decisions. The secondary question can be answered imperfectly and revised later. The cost of not answering the primary question compounds daily.
+
+### Catching yourself in real time
+
+One of the more striking capabilities of a tool that knows your situation well is that it can help you notice when you're doing this. An exchange like:
+
+> *"Markets went up today because of the Iran deal. The deal might not hold, so there'll be better days to buy. Although there's T+3 settlement..."*
+
+...is recognisable as the timing trap — there's always a reason today is the wrong day. A tool that has already done the analysis can name what's happening without judgment: *"You just caught yourself. That's the timing trap."*
+
+This isn't the tool making the decision. It's the tool making the pattern legible so the person can decide whether they want to act on it.
+
+### The standing order as psychological resolution
+
+When timing anxiety is the barrier, the correct solution is often to remove the decision from the equation entirely. A monthly standing order — same amount, same fund, same date — converts a repeated high-anxiety decision into a single low-anxiety setup. You can't time something if there's no moment to time.
+
+This isn't financially optimal in expectation (lump sum beats DCA most of the time). It's psychologically optimal in practice, because the money that actually gets invested outperforms the money that sits in a savings account waiting for the right moment.
+
+### The floor, not the ladder
+
+The concept of a "gilt ladder" — holding a series of bonds maturing at different future dates to fund near-term spending — is financially sound. But for people with sufficient assets, it often becomes a psychological construct: a way of having "certain" money that feels separate from the volatile rest.
+
+A simpler version of the same thing: define a floor. A fixed amount in an accessible savings account that you agree with yourself you'll never invest. The floor doesn't need to be a ladder. It just needs to be enough to quiet the anxiety about needing money suddenly, so that everything above it can be invested without that anxiety attached.
+
+The key design question is: *what is the minimum certain amount that would let you sleep?* Not what you need financially — that's usually much less — but what you need psychologically. Once the floor is defined and funded, everything above it has permission to be in equities.
+
+### When the instrument answers the question
+
+Sometimes the right time to exit a position is determined by the instrument, not by the investor. A zero-coupon gilt maturing in 19 months, timed almost exactly to a planned exit date, answers the question "when do I redeploy?" without requiring a market timing decision. The answer is: January 2028, when it matures.
+
+Recognising this removes an entire category of anxiety. The question isn't open; it's already settled. The investor can focus on decisions that are actually undetermined.
+
+---
+
 ## Relation to other patterns
 
 The agent patterns most relevant here are less about multi-step reasoning and more about reliable, low-cost, regular execution:
