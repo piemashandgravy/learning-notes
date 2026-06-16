@@ -172,6 +172,26 @@ Naming it is the first step to not letting it drive decisions.
 
 ---
 
+## The wrong tribe — cultural misalignment as a career signal
+
+One underappreciated source of workplace dissatisfaction isn't the work itself — it's the culture the work attracts. A person can be good at their job, reasonably well compensated, and working for an organisation they broadly respect, while still finding the environment quietly corrosive. The signal is usually physical: you notice what you're wearing, you notice what other people are wearing, and the gap between the two feels meaningful.
+
+The person who genuinely belongs in a culture doesn't notice these things. They match. The person who doesn't belong notices everything — the uniform, the posture, the way people speak to each other in corridors, the implicit social codes that everyone else seems to have absorbed without thinking. This noticing is data, not complaint.
+
+A specific and recognisable type exists in finance: the person who has optimised entirely for career signalling and let everything else go. The branded gilet. The voluntary suit. The physical self-neglect combined with social arrogance toward people they've decided don't matter. These aren't individual failings — they're what a particular incentive structure selects for over time.
+
+If you find yourself increasingly alien to that type — if you're wearing Merrells when everyone else is in Oxford shoes, cycling when everyone else is taking the Tube, doing PT twice a week while the corridor crowd look like they've never broken a sweat — that's not a superficial observation. It's a description of someone who has been in the wrong tribe for a long time and knows it.
+
+### The "what if" thought
+
+The counterfactual — what if I'd left earlier, taken a different path, not gone back after the redundancy — is the most expensive thought in the repertoire and the least useful. The counterfactual version of your life doesn't come with the things that accumulated alongside the things you regret. It's a thought experiment with no valid comparison group.
+
+The more useful reframe: the coding was always fun. That thread — engineering degree, placement, grad scheme, 25 years of building things in Python and SQL — never broke. It just ran alongside a culture that wasn't yours. The skills are intact. The appetite is intact. The question that's actually open is what the next 35 years look like now that you can afford to choose the room you're in.
+
+That question has a concrete answer in progress.
+
+---
+
 ## Financial media and the false peer group
 
 Financial commentary — newspaper money pages, Reddit threads, comment sections — creates a distorted picture of what "normal" financial situations look like. The people most likely to comment on personal finance articles are:
